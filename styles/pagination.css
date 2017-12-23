@@ -1,0 +1,29 @@
+.pagination {
+    list-style: none;
+    font-family: 'Hind', sans-serif;
+    margin-left: 35%;
+    margin-top: 40px;
+}
+.pagination li {
+    float: left;
+}
+.pagination li a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.active {
+    background: #295aff;
+    color: white;
+}
+.pagination li.active a {
+    color: #ffffff;
+}
+

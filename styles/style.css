@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.71);
+}
+
+#wrapper {
+    width: 80%;
+    margin: 10px auto;
+}
+
+header {
+    padding: 20px 0;
+}
+
+#clock {
+    text-align: right;
+    padding: 15px 0;
+    width: 100%;
+    color: #a0a0a0;
+}
+
+footer {
+}
+
+/* Начало Форма data-form */
+#data-form {
+    width: 50%;
+    margin: 0% auto;
+}
+#data-form input[type=text], #data-form input[type=email] {
+    width: 100%;
+    font:  20px 'Roboto', sans-serif;
+    height: 36px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+#data-form textarea {
+    width: 100%;
+    font: 20px 'Roboto', sans-serif;
+    padding: 8px 10px;
+    box-sizing: border-box;
+}
+.form-item {
+    padding: 5px 0px;
+}
+
+#data-form input[type=submit] {
+    height: 32px;
+    width: 75px;
+    float: right;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(255, 44, 0, 0.51);
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+::-moz-placeholder          {
+    color: rgba(255, 44, 0, 0.51);
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}/* Firefox 19+ */
+:-moz-placeholder           {
+    color: rgba(255, 44, 0, 0.51);
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}/* Firefox 18- */
+:-ms-input-placeholder      {
+    color: rgba(255, 44, 0, 0.51);
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Конец */
